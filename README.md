@@ -34,7 +34,7 @@ dotnet ef database update
 dotnet run
 ```
 
-<p>The backend API will be available at <b>http://localhost:5298/api/books.</b></p>
+<p>The backend API will be available at <b>http://localhost:5298/api/books</b>.</p>
 
 ## Frontend Setup
 💠Navigate to the Frontend Directory:
