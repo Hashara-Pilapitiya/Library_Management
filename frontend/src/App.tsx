@@ -19,7 +19,7 @@ const App: React.FC = () => {
   const [addUser, setAddUser] = useState(false);
   const [form] = Form.useForm();
 
-  const BASE_URL = "http://localhost:5068/api/books"; // Backend URL
+  const BASE_URL = "http://localhost:5068/api/books"; 
 
   useEffect(() => {
     fetchBooks();
@@ -78,8 +78,8 @@ const App: React.FC = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          ...editingRecord, // Include the existing data from the record
-          ...values,        // Override with the updated values from the form
+          ...editingRecord, 
+          ...values,       
         }),
       });
 
@@ -89,7 +89,7 @@ const App: React.FC = () => {
 
       message.success("Book updated successfully!");
       setIsUpdating(false);
-      fetchBooks(); // Refresh the list after updating
+      fetchBooks(); 
     } catch (error) {
       console.error("Failed to update book:", error);
       message.error("Failed to update book. Please try again.");
