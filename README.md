@@ -34,7 +34,7 @@ dotnet ef database update
 dotnet run
 ```
 
-<p>The backend API will be available at <b>http://localhost:5298/api/books</b></p>.
+<p>The backend API will be available at <b>http://localhost:5298/api/books.</b></p>
 
 ## Frontend Setup
 💠Navigate to the Frontend Directory:
@@ -55,15 +55,15 @@ npm run dev
 <p>The frontend application will be available at <b>http://localhost:5173</b>.</p>
 
 ## Running the Application
-To run the full application:
-1. Start the backend server by following the Backend Setup instructions.
-2. Start the frontend server by following the Frontend Setup instructions.
+To run the full application:<br /><br />
+1. Start the backend server by following the Backend Setup instructions.<br />
+2. Start the frontend server by following the Frontend Setup instructions.<br />
 3. Open your browser and navigate to http://localhost:5173 to interact with the application.
 
 ## API Documentation
-Books API Endpoints
-💠GET /api/books: Retrieve a list of all books.
-💠GET /api/books/{id}: Retrieve a specific book by ID.
-💠POST /api/books: Create a new book.
-💠PUT /api/books/{id}: Update an existing book by ID.
+Books API Endpoints<br /><br />
+💠GET /api/books: Retrieve a list of all books.<br />
+💠GET /api/books/{id}: Retrieve a specific book by ID.<br />
+💠POST /api/books: Create a new book.<br />
+💠PUT /api/books/{id}: Update an existing book by ID.<br />
 💠DELETE /api/books/{id}: Delete a book by ID.
