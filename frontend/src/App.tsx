@@ -124,11 +124,11 @@ const App: React.FC = () => {
         <>
           <EditOutlined
             onClick={() => onUpdateUser(record)}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", fontSize: 20 }}
           />
           <DeleteOutlined
             onClick={() => onDeleteUser(record)}
-            style={{ color: "red", marginLeft: 24, cursor: "pointer" }}
+            style={{ color: "red", marginLeft: 24, cursor: "pointer", fontSize: 20 }}
           />
         </>
       ),
@@ -137,10 +137,10 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <div className="mb-6 bg-white font-bold text-[#105cd7] shadow-md flex justify-center p-4 rounded-lg">
-        <h1 className="text-[24px]">Library Management System</h1>
+      <div className="mb-20 bg-white font-bold text-[#105cd7] shadow-md flex justify-center p-4 rounded-lg">
+        <h1 className="text-[30px]">Library Management System</h1>
       </div>
-      <Button onClick={onAddUser} type="primary" className="mb-4 flex">
+      <Button onClick={onAddUser} type="primary" className="mb-8 flex p-5 text-[16px]">
         Add New Book
       </Button>
       <Table dataSource={users} columns={columns} rowKey="id" />
