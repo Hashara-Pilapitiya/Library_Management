@@ -4,10 +4,10 @@
 This is a full-stack Library Management System built using C# .NET for the backend and React with TypeScript for the frontend. The application allows users to manage book records such as create, read, update and delete through a user-friendly interface. 
 
 ## Prerequisites
-Before you begin, ensure you have the following installed on your system:<br />
-💠.NET SDK (version 6.0 or higher)
-💠Node.js (version 14 or higher)
-💠SQLite
+Before you begin, ensure you have the following installed on your system:<br /><br />
+💠.NET SDK (version 6.0 or higher)<br />
+💠Node.js (version 14 or higher)<br />
+💠SQLite<br />
 💠Git
 
 
