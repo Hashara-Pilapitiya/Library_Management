@@ -28,6 +28,7 @@ const App: React.FC = () => {
         <Route
           path="/"
           element={
+            // Protected route for home page allowing access only if authenticated
             <ProtectedRoute>
               <Home />
             </ProtectedRoute>

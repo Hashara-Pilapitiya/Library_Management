@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import { Form, Input, Button, message } from "antd";
 import { useNavigate } from "react-router-dom";
+import { BASE_URL } from "../config";
 
 const SignIn: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
+  // Sign-in user
   const handleSignIn = async (values: {
     username: string;
     password: string;
   }) => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5298/api/auth/signin", {
+      const response = await fetch(`${BASE_URL}/auth/signin`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -57,6 +59,8 @@ const SignIn: React.FC = () => {
           >
             <Input.Password />
           </Form.Item>
+
+          {/* Allow user to sign up if they don't have an account */}
           <div>
             Don't have an account?{" "}
             <a href="/signup" className="text-blue-500 mb-2">
