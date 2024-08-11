@@ -1,7 +1,7 @@
 # Library Management System
 
 
-This is a full-stack Library Management System built using C# .NET for the backend and React with TypeScript for the frontend. The application allows users to manage book records such as create, read, update and delete through a user-friendly interface. 
+This is a full-stack Library Management System built using C# .NET for the backend with SQLite database and React with TypeScript for the frontend. The application allows users to authenticate and manage book records such as create, read, update and delete through a user-friendly interface. 
 
 ## Prerequisites
 Before you begin, ensure you have the following installed on your system:<br /><br />
@@ -14,8 +14,8 @@ Before you begin, ensure you have the following installed on your system:<br /><
 ## Backend Setup
 💠Clone the Repository:
 ```
-git clone https://github.com/your-username/library-management.git
-cd library-management/backend
+git clone https://github.com/Hashara-Pilapitiya/Library_Management
+cd Library_Management/backend
 ```
 
 💠Restore NuGet Packages:
@@ -25,7 +25,7 @@ dotnet restore
 
 💠Apply Migrations and Create the Database:
 ```
-dotnet ef migrations add InitialCreate
+dotnet ef migrations add Test
 dotnet ef database update
 ```
 
@@ -34,7 +34,7 @@ dotnet ef database update
 dotnet run
 ```
 
-<p>The backend API will be available at <b>http://localhost:5298/api/books</b>.</p>
+<p>The backend API will be available at <b>http://localhost:5298</b>.</p>
 
 ## Frontend Setup
 💠Navigate to the Frontend Directory:
@@ -60,6 +60,10 @@ To run the full application:<br /><br />
 2. Start the frontend server by following the Frontend Setup instructions.<br />
 3. Open your browser and navigate to http://localhost:5173 to interact with the application.
 
+## Features
+💠User authentication with protected routes<br />
+💠Allow users create, upate, view and delete books
+
 ## API Documentation
 Books API Endpoints<br /><br />
 💠GET /api/books: Retrieve a list of all books.<br />
@@ -67,3 +71,6 @@ Books API Endpoints<br /><br />
 💠POST /api/books: Create a new book.<br />
 💠PUT /api/books/{id}: Update an existing book by ID.<br />
 💠DELETE /api/books/{id}: Delete a book by ID.
+
+## Feedback
+All feedbacks are welcome on <a>hasharanethmi2020@gmail.com</a>
