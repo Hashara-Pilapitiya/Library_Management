@@ -38,7 +38,7 @@ const SignUp: React.FC = () => {
                 <h1 className="text-[24px]">Library Management System</h1>
             </div>
             <div className=" bg-white font-bold text-[#105cd7] shadow-md flex flex-col justify-center p-8 rounded-lg">
-                <h1 className="font-bold text-xl mb-5">Welcome, Sign Up here</h1>
+                <h1 className="font-bold text-xl mb-5">Sign up to LMS</h1>
                 <Form layout="vertical" onFinish={handleSignUp} className="w-[500px]">
                     <Form.Item
                         name="username"
