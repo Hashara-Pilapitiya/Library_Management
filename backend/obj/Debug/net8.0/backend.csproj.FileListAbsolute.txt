@@ -127,3 +127,12 @@ C:\Users\User\Desktop\Library_Management\backend\obj\Debug\net8.0\refint\backend
 C:\Users\User\Desktop\Library_Management\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\User\Desktop\Library_Management\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\User\Desktop\Library_Management\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\Library_Management\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
